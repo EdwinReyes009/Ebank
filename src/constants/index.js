@@ -3,19 +3,19 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Inicio",
   },
   {
     id: "features",
-    title: "Features",
+    title: "Novedades",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Productos",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Clientes",
   },
 ];
 
@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Recompensas",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Las mejores tarjetas de crédito ofrecen algunas combinaciones tentadoras de promociones y premios.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "100% Seguro",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Tomamos medidas proactivas para asegurarnos de que su información y sus transacciones estén seguras.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Transferencia de saldo",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Una tarjeta de crédito de transferencia de saldo puede ahorrarle mucho dinero en cargos por intereses.",
   },
 ];
 
@@ -47,24 +47,24 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
+      "El dinero es sólo una herramienta. Te llevará a donde quieras, pero no te reemplazará como conductor.",
+    name: "Angel Díaz",
     title: "Founder & Leader",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
+      "El dinero te hace la vida más fácil. Si tienes suerte de tenerlo, tienes suerte.",
+    name: "Edwin Kigs",
     title: "Founder & Leader",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
+      "Por lo general, son las personas en el negocio del dinero, las finanzas y el comercio internacional las que son realmente ricas.",
+    name: "Eduardo Navarro",
     title: "Founder & Leader",
     img: people03,
   },
@@ -73,60 +73,60 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
+    title: "Usuarios activos",
     value: "3800+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
+    title: "Patrocinadores",
     value: "230+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
+    title: "Transacciones",
     value: "$230M+",
   },
 ];
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Enlaces",
     links: [
       {
-        name: "Content",
+        name: "Contenido",
         link: "https://www.e-bank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "Como funciona",
         link: "https://www.e-bank.com/how-it-works/",
       },
       {
-        name: "Create",
+        name: "Creación",
         link: "https://www.e-bank.com/create/",
       },
       {
-        name: "Explore",
+        name: "Explora",
         link: "https://www.e-bank.com/explore/",
       },
       {
-        name: "Terms & Services",
+        name: "Terminos y servicios",
         link: "https://www.e-bank.com/terms-and-services/",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Comunidad",
     links: [
       {
-        name: "Help Center",
+        name: "Centro de ayuda",
         link: "https://www.e-bank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "Patrocinadores",
         link: "https://www.e-bank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "Sugerencias",
         link: "https://www.e-bank.com/suggestions/",
       },
       {
@@ -140,14 +140,14 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Partner",
+    title: "Patrocinadores",
     links: [
       {
-        name: "Our Partner",
+        name: "Nuestras alianzas",
         link: "https://www.e-bank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "Unete a nuestro equipo",
         link: "https://www.e-bank.com/become-a-partner/",
       },
     ],
@@ -179,19 +179,19 @@ export const socialMedia = [
 
 export const clients = [
   {
-    id: "client-1",
+    id: "cliente-1",
     logo: airbnb,
   },
   {
-    id: "client-2",
+    id: "cliente-2",
     logo: binance,
   },
   {
-    id: "client-3",
+    id: "cliente-3",
     logo: coinbase,
   },
   {
-    id: "client-4",
+    id: "cliente-4",
     logo: dropbox,
   },
 ];

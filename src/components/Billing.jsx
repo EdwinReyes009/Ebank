@@ -11,8 +11,8 @@ const Billing = () => (
     </div>
 
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>Easily control your <br className="sm:block hidden"/> billing & invoicing.</h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>This is an easy way to invest and save your money secure with hoobanck you will not have any problem with because we always be in service with you.</p>
+      <h2 className={styles.heading2}>Controle fácilmente su <br className="sm:block hidden"/> facturación y facturación.</h2>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Esta es una manera fácil de invertir y ahorrar su dinero seguro con E-Bank con el que no tendrá ningún problema porque siempre estaremos a su servicio.</p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
         <img src={apple} alt="app_store" className="w-[128px] h-[42px] object-contain mr-5 cursor-pointer" />

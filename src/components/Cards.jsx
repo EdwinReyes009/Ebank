@@ -5,10 +5,10 @@ import Button from './Button';
 export const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>Find a better card deal <br className='sm:block hidden'/> in few easy steps.</h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>This card is made for you because we thought in you and all the things that you cand od with this card in your pocket.</p>
+      <h2 className={styles.heading2}>Encuentra una oferta<br className='sm:block hidden'/> en unos pocos pasos.</h2>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Esta tarjeta está hecha para ti porque pensamos en ti y en todas las cosas que puedes hacer con esta tarjeta en tu bolsillo.</p>
 
-      <Button styles="mt-10" text="Get Started"/>
+      <Button styles="mt-10" text="Comienza ahora!"/>
     </div>
 
     <div className={layout.sectionImg}>
