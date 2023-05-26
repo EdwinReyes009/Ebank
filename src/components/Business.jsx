@@ -19,7 +19,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 )
 
 const Business = () => (
-  <section id="features" className={layout.section}>
+  <section id="features" className={`${layout.section} animate-fade-right`}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>Tu haces los negocios, <br className="sm:block hidden"/> nosotros nos encargamos del dinero.</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Con la tarjeta de crédito adecuada, puede mejorar su situación financiera creando crédito, ganando recompensas y ahorrando dinero. Pero con cientos de tarjetas de crédito en el mercado.</p>
