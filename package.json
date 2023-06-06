@@ -5,10 +5,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "npm run dev -o",
-    "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "start": "npm run dev -o",
+    "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
